@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NodePRO</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="icon" type="text/css" href="img/icon.png">
+</head>
+<body>
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo">NodePro - Especializada em soluções digitais</h1></a>
+		<button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+		<nav class="menu">
+			<a class="btn-close">x</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Cliente</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Quem somos</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<script>
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+</body>
+</html>
